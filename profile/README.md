@@ -204,7 +204,7 @@ Meet the team behind OccupAI:
       <a href="mailto:charles@occupai.us">charles@occupai.us</a>
     </td>
     <td align="center">
-      <img src="https://lh3.googleusercontent.com/a-/ALV-UjVE91Mgdxo10_4A6wEgO50jYEqkegx463kOtcbWomTmDhFshg8=s48-p" width="100px;" alt="Will Jandak"/>
+      <img src="https://lh3.googleusercontent.com/a-/ALV-UjVXDY_hazLEifcIxAdbsWE4xrGCjKzUsAKOUYnna8evwRBW42k=s272-p-k-rw-no" width="100px;" alt="Will Jandak"/>
       <br />
       <sub><b>Will Jandak</b></sub>
       <br />
