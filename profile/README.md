@@ -161,26 +161,26 @@ docker stack deploy -c docker-compose.yml occupai
 ### Infrastructure Overview
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                     Digital Ocean                           │
+┌────────────────────────────────────────────────────────────┐
+│                     Digital Ocean                          │
 │  ┌─────────────────────────────────────────────────────┐   │
-│  │                  Docker Swarm                        │   │
+│  │                  Docker Swarm                       │   │
 │  │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  │   │
 │  │  │  OccupAI    │  │  OccupAI    │  │  PostgreSQL │  │   │
 │  │  │  (Primary)  │  │  (Replica)  │  │     DB      │  │   │
 │  │  └─────────────┘  └─────────────┘  └─────────────┘  │   │
 │  └─────────────────────────────────────────────────────┘   │
-│                           │                                 │
+│                           │                                │
 │                     Tailscale VPN                          │
-│                           │                                 │
-└───────────────────────────┼─────────────────────────────────┘
+│                           │                                │
+└───────────────────────────┼────────────────────────────────┘
                             │
             ┌───────────────┼───────────────┐
             ▼               ▼               ▼
-      ┌──────────┐   ┌──────────┐   ┌──────────┐
-      │  Edge    │   │  Edge    │   │  Edge    │
-      │ Device 1 │   │ Device 2 │   │ Device N │
-      └──────────┘   └──────────┘   └──────────┘
+      ┌──────────┐   ┌──────────┐      ┌──────────┐
+      │  Edge    │   │  Edge    │      │  Edge    │
+      │ Device 1 │   │ Device 2 │      │ Device N │
+      └──────────┘   └──────────┘      └──────────┘
 ```
 
 ## Team
@@ -190,21 +190,21 @@ Meet the team behind OccupAI:
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/jayce.png" width="100px;" alt="Jayce Bordelon"/>
+      <img src="https://jayceb.com/_next/image?url=%2Fimages%2Fdawg.jpg&w=256&q=75" width="100px;" alt="Jayce Bordelon"/>
       <br />
       <sub><b>Jayce Bordelon</b></sub>
       <br />
       <a href="mailto:jayce@occupai.us">jayce@occupai.us</a>
     </td>
     <td align="center">
-      <img src="https://github.com/charles.png" width="100px;" alt="Charles Jandak"/>
+      <img src="https://lh3.googleusercontent.com/a-/ALV-UjVPLgs6B0K0Kt5Vm5ALsSRqONCet5J959g2WWtWleL-rJ-LBTs=s272-p-k-rw-no" width="100px;" alt="Charles Jandak"/>
       <br />
       <sub><b>Charles Jandak</b></sub>
       <br />
       <a href="mailto:charles@occupai.us">charles@occupai.us</a>
     </td>
     <td align="center">
-      <img src="https://github.com/will.png" width="100px;" alt="Will Jandak"/>
+      <img src="https://lh3.googleusercontent.com/a-/ALV-UjVE91Mgdxo10_4A6wEgO50jYEqkegx463kOtcbWomTmDhFshg8=s48-p" width="100px;" alt="Will Jandak"/>
       <br />
       <sub><b>Will Jandak</b></sub>
       <br />
