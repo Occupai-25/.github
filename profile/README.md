@@ -444,6 +444,12 @@ Built on **enterprise-grade infrastructure** for maximum reliability and securit
 
 <br />
 
+<a href="https://www.occupai.us/privacy-policy">Privacy Policy</a>
+&nbsp;&nbsp;•&nbsp;&nbsp;
+<a href="https://www.occupai.us/terms-of-service">Terms of Service</a>
+
+<br />
+
 ---
 
 <br />
