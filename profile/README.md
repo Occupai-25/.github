@@ -111,33 +111,62 @@ Annual plans include 15% discount or one month free.
 
 We offer pilot programs for St. Louis area venues and personalized demos for multi-location operators.
 
-## Our Team
+---
+
+## Meet Our Team
+
+<div align="center">
 
 <table>
   <tr>
-    <td align="center">
-      <img src="./jayce.jpg" width="100px;" alt="Jayce Bordelon"/>
+    <td align="center" width="33%">
+      <img src="./jayce.jpg" width="200px;" alt="Jayce Bordelon" style="border-radius: 50%;"/>
       <br />
-      <sub><b>Jayce Bordelon</b></sub>
       <br />
-      <a href="mailto:jayce@occupai.us">jayce@occupai.us</a>
+      <h3><b>Jayce Bordelon</b></h3>
+      <p>Co-Founder</p>
+      <a href="mailto:jayce@occupai.us">
+        <img src="https://img.shields.io/badge/Email-jayce@occupai.us-blue?style=for-the-badge&logo=gmail" alt="Email"/>
+      </a>
     </td>
-    <td align="center">
-      <img src="./charles.webp" width="100px;" alt="Charles Jandak"/>
+    <td align="center" width="33%">
+      <img src="./charles.webp" width="200px;" alt="Charles Jandak" style="border-radius: 50%;"/>
       <br />
-      <sub><b>Charles Jandak</b></sub>
       <br />
-      <a href="mailto:charles@occupai.us">charles@occupai.us</a>
+      <h3><b>Charles Jandak</b></h3>
+      <p>Co-Founder</p>
+      <a href="mailto:charles@occupai.us">
+        <img src="https://img.shields.io/badge/Email-charles@occupai.us-blue?style=for-the-badge&logo=gmail" alt="Email"/>
+      </a>
     </td>
-    <td align="center">
-      <img src="./will.webp" width="100px;" alt="Will Jandak"/>
+    <td align="center" width="33%">
+      <img src="./will.webp" width="200px;" alt="Will Jandak" style="border-radius: 50%;"/>
       <br />
-      <sub><b>Will Jandak</b></sub>
       <br />
-      <a href="mailto:will@occupai.us">will@occupai.us</a>
+      <h3><b>Will Jandak</b></h3>
+      <p>Co-Founder</p>
+      <a href="mailto:will@occupai.us">
+        <img src="https://img.shields.io/badge/Email-will@occupai.us-blue?style=for-the-badge&logo=gmail" alt="Email"/>
+      </a>
     </td>
   </tr>
 </table>
+
+<br />
+
+### Get in Touch
+
+<a href="mailto:team@occupai.us">
+  <img src="https://img.shields.io/badge/Team_Email-team@occupai.us-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Team Email" height="40"/>
+</a>
+&nbsp;&nbsp;&nbsp;
+<a href="https://www.occupai.us">
+  <img src="https://img.shields.io/badge/Website-www.occupai.us-00C7B7?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" height="40"/>
+</a>
+
+</div>
+
+---
 
 ## Technology
 
