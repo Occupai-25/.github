@@ -116,21 +116,21 @@ We offer pilot programs for St. Louis area venues and personalized demos for mul
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/jayce.png" width="100px;" alt="Jayce Bordelon"/>
+      <img src="./jayce.jpg" width="100px;" alt="Jayce Bordelon"/>
       <br />
       <sub><b>Jayce Bordelon</b></sub>
       <br />
       <a href="mailto:jayce@occupai.us">jayce@occupai.us</a>
     </td>
     <td align="center">
-      <img src="https://github.com/charles.png" width="100px;" alt="Charles Jandak"/>
+      <img src="./charles.webp" width="100px;" alt="Charles Jandak"/>
       <br />
       <sub><b>Charles Jandak</b></sub>
       <br />
       <a href="mailto:charles@occupai.us">charles@occupai.us</a>
     </td>
     <td align="center">
-      <img src="https://github.com/will.png" width="100px;" alt="Will Jandak"/>
+      <img src="./will.webp" width="100px;" alt="Will Jandak"/>
       <br />
       <sub><b>Will Jandak</b></sub>
       <br />
