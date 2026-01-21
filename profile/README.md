@@ -2,209 +2,135 @@
 
 **Real-time occupancy intelligence for physical spaces.**
 
-OccupAI is a modern SaaS platform that enables venues to monitor and analyze foot traffic across their locations using edge-deployed cameras and AI-powered detection.
+OccupAI turns your existing security cameras into a powerful business intelligence system — with no video ever leaving your premises.
 
 ## What We Do
 
-We help multi-location businesses understand how their physical spaces are being used in real-time:
+We help venue operators make smarter decisions about staffing, marketing, and operations by providing real-time insights into how your spaces are being used.
 
-- **Hotels & Hospitality** — Monitor lobby traffic, pool areas, restaurants, and conference rooms
-- **Restaurants & Bars** — Track dining room capacity, bar occupancy, and patio usage
-- **Fitness Centers** — See real-time gym floor, studio, and locker room occupancy
-- **Retail Stores** — Analyze foot traffic patterns across departments and checkout areas
+**Perfect for:**
+- **Restaurants & Bars** — Optimize table turns, bar coverage, and patio seating
+- **Retail Stores** — Understand foot traffic patterns and peak shopping times
+- **Gyms & Studios** — Monitor class attendance and equipment usage
+- **Event Venues** — Track crowd flow and capacity in real-time
 
 ## How It Works
-
 ```
 ┌─────────────┐     ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
-│   Cameras   │ ──▶ │ Edge Device │ ──▶ │  OccupAI    │ ──▶ │  Dashboard  │
-│  (On-site)  │     │ (Tailscale) │     │   Cloud     │     │  Analytics  │
+│Your Existing│ ──▶ │ OccupAI     │ ──▶ │  Secure     │ ──▶ │    Your     │
+│  Cameras    │     │Edge Device  │     │Transmission │     │  Dashboard  │
 └─────────────┘     └─────────────┘     └─────────────┘     └─────────────┘
 ```
 
-1. **Cameras** capture video at your location
-2. **Edge devices** process feeds locally using AI (privacy-first — video never leaves your premises)
-3. **Occupancy data** is securely transmitted to OccupAI via encrypted Tailscale network
-4. **Dashboards** provide real-time metrics and historical trend analysis
+1. **Plug in our edge device** to your existing camera system (no technical expertise needed)
+2. **AI processes video locally** at your venue — video never goes to the cloud
+3. **Anonymous occupancy data** is securely sent to your dashboard via encrypted network
+4. **Get actionable insights** through real-time analytics and AI-powered recommendations
 
-## Key Features
+## Privacy First
 
-| Feature | Description |
-|---------|-------------|
-| **Real-Time Tracking** | See live occupancy counts across all your locations |
-| **Area-Level Granularity** | Track 30+ area types: dining, lobby, gym, checkout, VIP sections, and more |
-| **Multi-Location Support** | Manage unlimited locations under one organization |
-| **Privacy-First** | Edge processing means video stays on-premise |
-| **Role-Based Access** | Organization admins, members, and internal admin tiers |
-| **Trend Analytics** | 7-day, 30-day, and 90-day occupancy trend visualization |
-| **Secure Networking** | Tailscale-powered zero-trust device connectivity |
+- ✅ **No facial recognition**
+- ✅ **No video storage or cloud transmission**
+- ✅ **Fully anonymous occupancy counts**
+- ✅ **GDPR and privacy-compliant by design**
 
-## Tech Stack
+Your customers' privacy is protected. Your video stays on your premises.
 
-**Frontend**
-- Next.js 16 (App Router)
-- React 19
-- TypeScript
-- Tailwind CSS + Radix UI
-- Recharts
+## What You Get
 
-**Backend**
-- Next.js Server Actions
-- PostgreSQL + Prisma ORM
-- Clerk Authentication
-- Tailscale API Integration
+### Real-Time Dashboard
+See live occupancy across all your locations and areas:
+- Dining rooms, bars, patios
+- Checkout lanes, fitting rooms
+- Gym floors, studios
+- Lobbies, conference rooms
+- And 30+ other area types
 
-**Infrastructure**
-- Digital Ocean + Docker Swarm for deployment
-- Tailscale for edge device networking
-- LocationIQ for geocoding
-- Resend for transactional email
-- Cloudinary for media storage
+### AI-Powered Recommendations
+Our specialized AI agents help you:
 
-## Area Types Supported
+**📊 Marketing Agent**
+- Launch targeted promotions during slow periods
+- Boost foot traffic with data-driven campaigns
+- Track promotion effectiveness in real-time
 
-OccupAI supports tracking across a wide variety of venue areas:
+**👥 Staffing Agent**
+- Forecast busy periods and recommend shift coverage
+- Reduce labor costs during slow times
+- Eliminate understaffing during rushes
 
-| Category | Areas |
-|----------|-------|
-| **Food & Beverage** | Bar, Dining, Kitchen, Outdoor Patio |
+**📦 Inventory Agent**
+- Identify sales opportunities by zone
+- Optimize stock levels based on traffic patterns
+- Reduce waste and maximize revenue
+
+## Simple Pricing
+
+| Tier | What's Included | Best For |
+|------|----------------|----------|
+| **Base** | Real-time dashboard<br/>Occupancy insights<br/>Basic POS integration | Small venues getting started |
+| **Premium** | Everything in Base<br/>One AI Agent of your choice<br/>Advanced analytics | Venues wanting automation |
+| **Enterprise** | Full AI Agent suite<br/>Custom configurations<br/>Multi-location support | Chains & franchises |
+
+**No hidden fees. No usage charges. Predictable, flat-rate pricing per location.**
+
+Annual plans include 15% discount or one month free.
+
+## Why Choose OccupAI?
+
+| Feature | OccupAI | Traditional Analytics | Cloud AI Platforms |
+|---------|---------|---------------------|-------------------|
+| Privacy-First (No Video Transmission) | ✅ | ❌ | ❌ |
+| Non-Technical Setup | ✅ | ❌ | ➖ |
+| AI-Powered Recommendations | ✅ | ❌ | ✅ |
+| Hands-Off Management | ✅ | ❌ | ❌ |
+| Real-Time Occupancy Data | ✅ | ❌ | ❌ |
+
+**We're the only solution that provides enterprise-level intelligence without compromising privacy or requiring technical staff.**
+
+## Our Customers Track 30+ Area Types
+
+| Category | Supported Areas |
+|----------|----------------|
+| **Food & Beverage** | Bar, Dining Room, Kitchen, Outdoor Patio |
 | **Entry & Transit** | Entrance, Exit, Lobby, Hallway, Stairwell, Elevator |
-| **Guest Services** | Waiting, Reception, Restroom, Checkout |
+| **Customer Service** | Waiting Area, Reception, Restroom, Checkout |
 | **Entertainment** | Stage, Dance Floor, Gaming Area, Pool Area |
-| **Fitness** | Gym, Spa |
-| **Retail** | Retail Floor, Showroom |
-| **Private Spaces** | VIP Section, Private Room, Conference Room, Office |
-| **Outdoor** | Parking, Courtyard, Rooftop |
+| **Fitness & Wellness** | Gym Floor, Spa, Studio |
+| **Retail** | Sales Floor, Showroom, Fitting Rooms |
+| **Private Spaces** | VIP Section, Private Rooms, Conference Rooms |
+| **Outdoor** | Parking, Courtyard, Rooftop, Patio |
 | **Utility** | Storage, Loading Dock |
 
-## Getting Started
+## Get Started
 
-```bash
-# Clone the repository
-git clone https://github.com/Occupai-25/occupai.git
+**Interested in transforming your venue with OccupAI?**
 
-# Install dependencies
-npm install
+📧 Contact us: [team@occupai.us](mailto:team@occupai.us)  
+🌐 Visit: [www.occupai.us](https://www.occupai.us)
 
-# Set up environment variables
-cp .env.example .env
+We offer pilot programs for St. Louis area venues and personalized demos for multi-location operators.
 
-# Run database migrations
-npx prisma migrate dev
-
-# Start development server
-npm run dev
-```
-
-## Environment Variables
-
-```env
-# =============================================================================
-# Database
-# =============================================================================
-DATABASE_URL=postgresql://user:password@host:5432/database
-
-# =============================================================================
-# Authentication (Clerk)
-# =============================================================================
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_...
-CLERK_SECRET_KEY=sk_test_...
-CLERK_WEBHOOK_SIGNING_SECRET=whsec_...
-
-# Clerk URLs
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_SIGN_IN_FORCE_REDIRECT_URL=/dashboard
-NEXT_PUBLIC_CLERK_SIGN_UP_FORCE_REDIRECT_URL=/dashboard
-
-# =============================================================================
-# Tailscale
-# =============================================================================
-# Generate API key at: https://login.tailscale.com/admin/settings/keys
-TAILSCALE_API_KEY=tskey-api-...
-TAILSCALE_API_URL=https://api.tailscale.com/api/v2
-TAILSCALE_API_TAILNET=your-tailnet.com
-TAILSCALE_AUTH_KEY=tskey-auth-...
-TAILSCALE_HOSTNAME=your-app.tailnet.ts.net
-
-# =============================================================================
-# Email (Resend)
-# =============================================================================
-RESEND_API_KEY=re_...
-ADMIN_EMAILS=admin@yourdomain.com
-
-# =============================================================================
-# Media Storage (Cloudinary)
-# =============================================================================
-NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=your-cloud-name
-NEXT_PUBLIC_CLOUDINARY_API_KEY=your-api-key
-CLOUDINARY_API_SECRET=your-api-secret
-
-# =============================================================================
-# Geocoding (LocationIQ)
-# =============================================================================
-LOCATIONIQ_API_KEY=pk....
-```
-
-## Deployment
-
-OccupAI is deployed on **Digital Ocean** using **Docker Swarm** for container orchestration.
-
-```bash
-# Build the Docker image
-docker build -t occupai:latest .
-
-# Deploy to Docker Swarm
-docker stack deploy -c docker-compose.yml occupai
-```
-
-### Infrastructure Overview
-
-```
-┌────────────────────────────────────────────────────────────┐
-│                     Digital Ocean                          │
-│  ┌─────────────────────────────────────────────────────┐   │
-│  │                  Docker Swarm                       │   │
-│  │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  │   │
-│  │  │  OccupAI    │  │  OccupAI    │  │  PostgreSQL │  │   │
-│  │  │  (Primary)  │  │  (Replica)  │  │     DB      │  │   │
-│  │  └─────────────┘  └─────────────┘  └─────────────┘  │   │
-│  └─────────────────────────────────────────────────────┘   │
-│                           │                                │
-│                     Tailscale VPN                          │
-│                           │                                │
-└───────────────────────────┼────────────────────────────────┘
-                            │
-            ┌───────────────┼───────────────┐
-            ▼               ▼               ▼
-      ┌──────────┐   ┌──────────┐      ┌──────────┐
-      │  Edge    │   │  Edge    │      │  Edge    │
-      │ Device 1 │   │ Device 2 │      │ Device N │
-      └──────────┘   └──────────┘      └──────────┘
-```
-
-## Team
-
-Meet the team behind OccupAI:
+## Our Team
 
 <table>
   <tr>
     <td align="center">
-      <img src="https://jayceb.com/_next/image?url=%2Fimages%2Fdawg.jpg&w=256&q=75" width="100px;" alt="Jayce Bordelon"/>
+      <img src="https://github.com/jayce.png" width="100px;" alt="Jayce Bordelon"/>
       <br />
       <sub><b>Jayce Bordelon</b></sub>
       <br />
       <a href="mailto:jayce@occupai.us">jayce@occupai.us</a>
     </td>
     <td align="center">
-      <img src="https://lh3.googleusercontent.com/a-/ALV-UjVPLgs6B0K0Kt5Vm5ALsSRqONCet5J959g2WWtWleL-rJ-LBTs=s272-p-k-rw-no" width="100px;" alt="Charles Jandak"/>
+      <img src="https://github.com/charles.png" width="100px;" alt="Charles Jandak"/>
       <br />
       <sub><b>Charles Jandak</b></sub>
       <br />
       <a href="mailto:charles@occupai.us">charles@occupai.us</a>
     </td>
     <td align="center">
-      <img src="https://lh3.googleusercontent.com/a-/ALV-UjVXDY_hazLEifcIxAdbsWE4xrGCjKzUsAKOUYnna8evwRBW42k=s272-p-k-rw-no" width="100px;" alt="Will Jandak"/>
+      <img src="https://github.com/will.png" width="100px;" alt="Will Jandak"/>
       <br />
       <sub><b>Will Jandak</b></sub>
       <br />
@@ -213,15 +139,37 @@ Meet the team behind OccupAI:
   </tr>
 </table>
 
-**Contact Us:** [team@occupai.us](mailto:team@occupai.us) | [www.occupai.us](https://www.occupai.us)
+## Technology
 
+Built on enterprise-grade infrastructure:
+- **Edge AI Processing** — Video analyzed on-site, not in the cloud
+- **Secure Networking** — Tailscale zero-trust connectivity
+- **Enterprise Database** — PostgreSQL with 99.9% uptime
+- **Modern Dashboard** — Real-time updates, mobile-responsive
+- **Proven Integrations** — Works with major POS systems
 
-## License
+Deployed on Digital Ocean with enterprise-grade security and reliability.
 
-Proprietary — All rights reserved.
+## Our Mission
+
+**Turn every venue's security system into a smart, real-time business advisor.**
+
+We believe venue operators shouldn't have to choose between powerful analytics and customer privacy. OccupAI gives you both.
 
 ---
 
 <p align="center">
   <strong>OccupAI</strong> — Know your space. In real-time.
 </p>
+
+---
+
+## License
+
+Proprietary — All rights reserved © 2025 OccupAI LLC
+
+---
+
+### For Developers
+
+If you're a developer looking for technical documentation, please see [TECHNICAL.md](./TECHNICAL.md) for setup instructions, API documentation, and deployment guides.
